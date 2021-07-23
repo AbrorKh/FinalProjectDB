@@ -17,10 +17,10 @@ app.get("/movies", async (req, res) => {
     const { metascore } = req.query;
     const { genre } = req.query;
 
-    // console.log(req.query);
+    console.log(req.query);
     const queryType = Object.keys(req.query)[0].toString();
     // console.log("Query Type:");
-    // console.log(queryType);
+    console.log(queryType);
     switch (queryType) {
       case "title":
         const moviesByTitle = await pool.query(
