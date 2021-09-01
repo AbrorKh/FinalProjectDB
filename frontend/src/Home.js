@@ -170,6 +170,7 @@ function Home() {
         <div className="d-flex"></div>
         <br />
         <div className="d-flex">
+          <h2>Hello Shuhratjon</h2>
           <h4>Select query type:</h4>
           <span>&nbsp;&nbsp;</span>
           <button className="btn btn-success" onClick={() => setQuery("title")}>
